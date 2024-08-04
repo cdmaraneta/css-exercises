@@ -1,0 +1,18 @@
+p:nth-child(odd){
+    background-color: crimson;
+    font-family:Verdana, Tahoma, sans-serif; 
+}
+
+#second-id{
+    font-size: 36px;
+    color: aquamarine;
+}
+
+.twofourfont{
+    font-size: 24px;
+}
+
+#fourth-id{
+    background-color: darkgreen;
+    font-weight: bold;
+}
