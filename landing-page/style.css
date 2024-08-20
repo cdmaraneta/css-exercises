@@ -60,6 +60,22 @@ body {
     color: whitesmoke;
 }
 
+.top-info-subtext {
+    color: whitesmoke;
+}
+
+.main-button {
+    background-color: #EDE8F5;
+    border: none;
+    color: #4d60aa;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
 .top-info-picture img{
     display: flex;
     width: 400px;
@@ -78,7 +94,7 @@ body {
 
 .gallery-title {
     font-size: 32px;
-    margin: 32px;
+    margin-bottom: 32px;
     color: #4d60aa;
 }
 
@@ -88,7 +104,6 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
     gap: 32px;
-
     justify-content: space-around;
 }
 
@@ -105,6 +120,74 @@ body {
     margin-bottom: 18px;
 }
 
+.qoute-content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 82px;
+    background: #adbada;
+}
+
+.qoute-text {
+    color: #f2f8fc;
+    font-size: 28px;
+}
+
+.qoute-author {
+    color: #f2f8fc;
+    font-size: 24px;
+    align-self: flex-end;
+}
+
+.action-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+}
+
+.action-card {
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    padding: 32px;
+    background: #7191e6;
+    border-radius: 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.action-text-title{
+    color: #EDE8F5;
+    font-weight: bolder;
+    font-size: 24px;
+}
+
+.action-text-body{
+    color: #EDE8F5;
+    font-size: 14px;
+}
+
+.action-button {
+    background: none;
+    border: 2px solid #EDE8F5;
+    color: #EDE8F5;
+    padding: 15px 32px;
+    font-size: 16px;
+    font-weight: bolder;
+    border-radius: 8px;
+    text-wrap: nowrap;
+
+}
+
 .footer {
+    display: flex;
     background: #3D52A0;
+    font-size: 32px;
+    color: whitesmoke;
+    padding: 12px;
+    justify-content: space-around;
+    align-items: center;
 }
